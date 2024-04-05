@@ -1,6 +1,6 @@
 
-import { Movie } from "./Movie";
-import { Professional } from "./Professional";
+import { Movie } from "./movie";
+import { Professional } from "./professional";
 
 // Instancia de Movie para Black Panther
 const blackPantherMovie:Movie = new Movie("Black Panther: Wakanda Forever", 2022, "USA", "Action");

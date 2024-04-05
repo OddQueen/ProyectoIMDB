@@ -1,5 +1,5 @@
 
-import { Movie } from "./Movie";
+import { Movie } from "./movie";
 
 export class Imdb {
     public pelicula: Movie[];

@@ -1,6 +1,6 @@
 
 import { Imdb } from "./imdb";
-import { Movie } from "./Movie";
+import { Movie } from "./movie";
 
 // Creamos instancias de películas para cada array
 const movies1: Movie = new Movie("The Godfather", 1972, "USA", "Crime");
@@ -24,4 +24,3 @@ imdb.pelicula.forEach((movies, index) => {
     console.log(`  Película ${index + 1}: ${movies.title}`);  
    
     });
-
